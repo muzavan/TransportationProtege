@@ -1,0 +1,528 @@
+2015.11.27 14:00:02.299 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:00:04.876 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:06:34.385 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:06:35.054 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:06:35.070 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:06:35.431 ICT INFO:     Completed triple loading after 275 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:06:35.433 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:06:35.433 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:06:35.433 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:06:35.433 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:06:35.434 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:06:35.434 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:06:35.434 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:06:35.438 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:06:35.442 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:06:35.447 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:06:35.450 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:06:35.451 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:06:35.452 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:06:35.454 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:06:35.454 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:06:35.454 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:06:35.455 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:06:35.456 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:06:35.457 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:06:35.457 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:06:35.458 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 14:29:29.284 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:29:29.975 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:29:29.993 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:29:30.368 ICT INFO:     Completed triple loading after 289 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:29:30.370 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:29:30.370 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:29:30.371 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:29:30.371 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:29:30.372 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:29:30.372 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:29:30.373 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:29:30.379 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:29:30.383 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:29:30.389 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:29:30.391 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:29:30.393 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:29:30.393 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:29:30.396 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:29:30.396 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:29:30.396 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:29:30.396 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:29:30.398 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:29:30.398 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:29:30.398 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:29:30.399 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 14:30:22.340 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:30:23.000 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:30:23.018 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:30:23.386 ICT INFO:     Completed triple loading after 284 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:30:23.389 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:30:23.390 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:30:23.390 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:30:23.391 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:30:23.391 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:30:23.391 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:30:23.391 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:30:23.396 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:30:23.401 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:30:23.408 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:30:23.410 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:30:23.412 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:30:23.412 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:30:23.416 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:30:23.417 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:30:23.417 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:30:23.417 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:30:23.418 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:30:23.419 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:30:23.419 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:30:23.420 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 14:31:57.730 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:31:58.402 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:31:58.418 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:31:58.788 ICT INFO:     Completed triple loading after 283 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:31:58.790 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:31:58.790 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:31:58.791 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:31:58.791 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:31:58.791 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:31:58.792 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:31:58.792 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:31:58.796 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:31:58.801 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:31:58.805 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:31:58.807 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:31:58.808 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:31:58.809 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:31:58.810 ICT INFO: 1 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:31:58.811 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:31:58.811 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:31:58.811 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:31:58.812 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:31:58.812 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:31:58.813 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:31:58.814 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 14:34:12.151 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:34:12.838 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:34:12.855 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:34:13.226 ICT INFO:     Completed triple loading after 285 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:34:13.228 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:34:13.228 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:34:13.228 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:34:13.229 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:34:13.229 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:34:13.230 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:34:13.231 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:34:13.236 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:34:13.241 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:34:13.248 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:34:13.250 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:34:13.252 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:34:13.252 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:34:13.254 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:34:13.255 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:34:13.255 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:34:13.255 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:34:13.256 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:34:13.257 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:34:13.257 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:34:13.257 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 14:34:32.827 ICT INFO: *** SYSTEM START ***
+2015.11.27 14:34:33.503 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 14:34:33.520 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:34:33.917 ICT INFO:     Completed triple loading after 311 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 14:34:33.919 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:34:33.920 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 14:34:33.921 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:34:33.921 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 14:34:33.922 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:34:33.923 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 14:34:33.924 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:34:33.928 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 14:34:33.934 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:34:33.940 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 14:34:33.942 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:34:33.944 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 14:34:33.945 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:34:33.947 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 14:34:33.948 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:34:33.948 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 14:34:33.948 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:34:33.949 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 14:34:33.950 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:34:33.950 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 14:34:33.951 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:01:18.065 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:01:24.155 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:01:24.784 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:01:24.801 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:01:25.176 ICT INFO:     Completed triple loading after 290 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:01:25.179 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:01:25.179 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:01:25.179 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:01:25.180 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:01:25.180 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:01:25.180 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:01:25.180 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:01:25.184 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:01:25.190 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:01:25.195 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:01:25.197 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:01:25.199 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:01:25.200 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:01:25.202 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:01:25.202 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:01:25.202 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:01:25.203 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:01:25.204 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:01:25.204 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:01:25.204 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:01:25.206 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:12:51.034 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:12:51.672 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:12:51.689 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:12:52.061 ICT INFO:     Completed triple loading after 284 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:12:52.063 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:12:52.063 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:12:52.064 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:12:52.064 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:12:52.064 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:12:52.065 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:12:52.065 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:12:52.069 ICT INFO: 3 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:12:52.075 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:12:52.082 ICT INFO: 7 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:12:52.085 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:12:52.088 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:12:52.088 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:12:52.090 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:12:52.091 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:12:52.091 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:12:52.091 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:12:52.093 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:12:52.093 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:12:52.094 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:12:52.095 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:15:48.521 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:15:49.129 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:15:49.145 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:15:49.519 ICT INFO:     Completed triple loading after 290 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:15:49.522 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:15:49.522 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:15:49.522 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:15:49.523 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:15:49.523 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:15:49.523 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:15:49.523 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:15:49.528 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:15:49.533 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:15:49.538 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:15:49.540 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:15:49.542 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:15:49.542 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:15:49.544 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:15:49.545 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:15:49.545 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:15:49.545 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:15:49.546 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:15:49.547 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:15:49.547 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:15:49.548 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:17:09.758 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:17:10.385 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:17:10.403 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:17:10.784 ICT INFO:     Completed triple loading after 289 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:17:10.786 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:17:10.786 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:17:10.786 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:17:10.787 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:17:10.787 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:17:10.787 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:17:10.787 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:17:10.791 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:17:10.795 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:17:10.800 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:17:10.802 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:17:10.803 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:17:10.803 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:17:10.805 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:17:10.805 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:17:10.805 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:17:10.805 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:17:10.807 ICT INFO: 0 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:17:10.807 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:17:10.807 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:17:10.808 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:24:17.733 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:24:18.389 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:24:18.408 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:24:18.781 ICT INFO:     Completed triple loading after 285 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:24:18.783 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:24:18.784 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:24:18.784 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:24:18.784 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:24:18.785 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:24:18.786 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:24:18.787 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:24:18.791 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:24:18.795 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:24:18.800 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:24:18.802 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:24:18.803 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:24:18.804 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:24:18.805 ICT INFO: 1 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:24:18.806 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:24:18.806 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:24:18.806 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:24:18.807 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:24:18.807 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:24:18.808 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:24:18.808 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:27:48.819 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:27:49.442 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:27:49.461 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:27:49.830 ICT INFO:     Completed triple loading after 282 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:27:49.833 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:27:49.833 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:27:49.833 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:27:49.834 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:27:49.834 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:27:49.835 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:27:49.835 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:27:49.839 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:27:49.844 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:27:49.850 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:27:49.853 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:27:49.855 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:27:49.856 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:27:49.858 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:27:49.858 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:27:49.858 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:27:49.858 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:27:49.860 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:27:49.860 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:27:49.860 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:27:49.861 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:31:43.802 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:31:44.423 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:31:44.441 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:31:44.812 ICT INFO:     Completed triple loading after 286 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:31:44.814 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:31:44.814 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:31:44.815 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:31:44.815 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:31:44.815 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:31:44.815 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:31:44.815 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:31:44.819 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:31:44.824 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:31:44.831 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:31:44.833 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:31:44.835 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:31:44.835 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:31:44.838 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:31:44.838 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:31:44.838 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:31:44.838 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:31:44.840 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:31:44.840 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:31:44.841 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:31:44.842 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:32:25.735 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:32:26.357 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:32:26.373 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:32:26.737 ICT INFO:     Completed triple loading after 279 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:32:26.739 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:32:26.739 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:32:26.740 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:32:26.741 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:32:26.741 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:32:26.742 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:32:26.742 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:32:26.746 ICT INFO: 3 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:32:26.751 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:32:26.756 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:32:26.758 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:32:26.759 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:32:26.760 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:32:26.762 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:32:26.762 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:32:26.762 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:32:26.762 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:32:26.764 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:32:26.764 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:32:26.764 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:32:26.765 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.27 17:34:49.522 ICT INFO: *** SYSTEM START ***
+2015.11.27 17:34:50.150 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Proyek\RPPOntology\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.27 17:34:50.168 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:34:50.540 ICT INFO:     Completed triple loading after 288 ms -- ProtegeOWLParser.loadTriples()
+2015.11.27 17:34:50.543 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:34:50.543 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.27 17:34:50.543 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:34:50.544 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.27 17:34:50.544 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:34:50.544 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.27 17:34:50.544 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:34:50.549 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.27 17:34:50.554 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:34:50.558 ICT INFO: 4 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.27 17:34:50.561 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:34:50.563 ICT INFO: 1 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.27 17:34:50.564 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:34:50.566 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.27 17:34:50.566 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:34:50.566 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.27 17:34:50.567 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:34:50.568 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.27 17:34:50.568 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:34:50.568 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.27 17:34:50.569 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
