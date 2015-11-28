@@ -8,13 +8,20 @@ package explorasi;
 
 import edu.stanford.smi.protege.exception.OntologyLoadException;
 import edu.stanford.smi.protegex.owl.ProtegeOWL;
+import edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner;
+import edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager;
+import edu.stanford.smi.protegex.owl.inference.reasoner.ProtegeReasoner;
+import edu.stanford.smi.protegex.owl.inference.reasoner.exception.ProtegeReasonerException;
+import edu.stanford.smi.protegex.owl.model.OWLClass;
 import edu.stanford.smi.protegex.owl.model.OWLIndividual;
 import edu.stanford.smi.protegex.owl.model.OWLModel;
 import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
 import edu.stanford.smi.protegex.owl.model.OWLObjectProperty;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 /**
@@ -58,15 +65,35 @@ public class TransportationUtil {
         "Angin","Solar","Avtur","Manusia","BatuBara","Listrik","Bensin", //hasSumberTenaga
     };
     
-    private TransportationUtil() {
+    private TransportationUtil() throws ProtegeReasonerException {
         try{
             OWLModel owlModel = ProtegeOWL.createJenaOWLModelFromInputStream(new FileInputStream(OWL));
             loadClasses(owlModel);
             loadProperties(owlModel);
             loadIndividuals(owlModel);
+            ProtegeReasoner reasoner = createPelletOWLAPIReasoner(owlModel);
+            
+            // -------- Contoh kode buat reasoner -----------
+//            // Get the VegetarianPizza OWLNamedClass from the OWLModel 
+//            OWLClass vegetarianPizza = owlModel.getOWLNamedClass("http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pesawat"); 
+//            System.out.println("Searching for subclass.....");
+//            if(vegetarianPizza != null) { 
+//                // Get the number of asserted subclasses of VegetarianPizza 
+//                Collection assertedSubclasses = vegetarianPizza.getNamedSubclasses(); 
+//                System.out.println("Number of asserted VegetarianPizzas: " + assertedSubclasses.size()); 
+//
+//                // Now get the inferred subclasses of VegetarianPizza 
+//                Collection inferredSubclasses = reasoner.getSubclasses(vegetarianPizza); 
+//                System.out.println("Number of inferred VegetarianPizzas: " + inferredSubclasses.size()); 
+//                System.out.println("VegetarianPizzas:"); 
+//                for(Iterator it = inferredSubclasses.iterator(); it.hasNext();) { 
+//                        OWLNamedClass curClass = (OWLNamedClass) it.next(); 
+//                        System.out.println("\t" + curClass.getName()); 
+//                } 
+//            }
         }
         catch(FileNotFoundException | OntologyLoadException e){
-            System.out.println(e);
+                System.out.println(e);
         }
     }
 
@@ -80,21 +107,29 @@ public class TransportationUtil {
     private void loadProperties(OWLModel owlModel) {
         for(String s : PROPERTIES){
           properties.put(s, (OWLObjectProperty) owlModel.getOWLObjectProperty(NAMESPACE+s));
-          System.out.println(properties.get(s));
+          //System.out.println(properties.get(s));
         }
     }
 
     private void loadIndividuals(OWLModel owlModel) {
        for(String s : INDIVIDUALS){
            individuals.put(s, (OWLIndividual) owlModel.getOWLIndividual(NAMESPACE+s));
-           System.out.println(individuals.get(s));
+           //System.out.println(individuals.get(s));
        } 
     }
     
-    public static TransportationUtil getInstance(){
+    public static TransportationUtil getInstance() throws ProtegeReasonerException{
         if(instance == null){
             instance = new TransportationUtil();
         }
         return instance;
+    }
+    
+    public ProtegeReasoner createPelletOWLAPIReasoner(OWLModel owlModel) {
+        
+        ReasonerManager reasonerManager = ReasonerManager.getInstance();
+        ProtegeReasoner reasoner = reasonerManager.createProtegeReasoner(owlModel, ProtegePelletOWLAPIReasoner.class);
+        
+        return reasoner;
     }
 }

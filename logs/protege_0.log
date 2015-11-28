@@ -526,3 +526,1006 @@
 2015.11.27 17:34:50.568 ICT INFO: 0 ms
  -- TriplePostProcessor.processPossiblyTypedResources()
 2015.11.27 17:34:50.569 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 11:44:44.387 ICT INFO: *** SYSTEM START ***
+2015.11.28 11:44:45.800 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 11:44:45.839 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 11:44:47.051 ICT INFO:     Completed triple loading after 912 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 11:44:47.054 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 11:44:47.054 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 11:44:47.055 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 11:44:47.055 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 11:44:47.056 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 11:44:47.059 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 11:44:47.060 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 11:44:47.070 ICT INFO: 10 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 11:44:47.088 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 11:44:47.141 ICT INFO: 53 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 11:44:47.150 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 11:44:47.152 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 11:44:47.153 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 11:44:47.164 ICT INFO: 10 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 11:44:47.164 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 11:44:47.164 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 11:44:47.165 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 11:44:47.171 ICT INFO: 6 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 11:44:47.172 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 11:44:47.172 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 11:44:47.183 ICT INFO: Updating underlying frames model in 11 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:46:36.478 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:46:37.658 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:46:37.782 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:46:38.535 ICT INFO:     Completed triple loading after 583 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:46:38.538 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:46:38.538 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:46:38.539 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:46:38.540 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:46:38.540 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:46:38.540 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:46:38.541 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:46:38.546 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:46:38.554 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:46:38.565 ICT INFO: 11 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:46:38.569 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:46:38.571 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:46:38.572 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:46:38.576 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:46:38.577 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:46:38.577 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:46:38.578 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:46:38.580 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:46:38.582 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:46:38.582 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:46:38.584 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:46:38.685 ICT WARNING: Exception caught by default exception handler -- java.lang.NoClassDefFoundError: org/semanticweb/owl/apibinding/OWLManager
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.<init>(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:438)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerPluginManager.getReasonerPluginInstance(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerPluginManager.getReasonerPluginInstance(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.internalCreateReasoner(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.getProtegeReasoner(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.createProtegeReasoner(Unknown Source)
+	at explorasi.TransportationUtil.createPelletOWLAPIReasoner(TransportationUtil.java:129)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:73)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:19)
+Caused by: java.lang.ClassNotFoundException: org.semanticweb.owl.apibinding.OWLManager
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 15 more
+
+2015.11.28 14:47:36.508 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:47:37.514 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:47:37.562 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:47:38.400 ICT INFO:     Completed triple loading after 639 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:47:38.403 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:47:38.403 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:47:38.404 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:47:38.405 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:47:38.405 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:47:38.405 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:47:38.406 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:47:38.418 ICT INFO: 12 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:47:38.435 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:47:38.447 ICT INFO: 12 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:47:38.451 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:47:38.453 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:47:38.454 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:47:38.458 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:47:38.460 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:47:38.460 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:47:38.461 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:47:38.463 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:47:38.464 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:47:38.465 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:47:38.467 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:47:38.671 ICT WARNING: Exception caught by default exception handler -- java.lang.NoClassDefFoundError: org/semanticweb/owl/apibinding/OWLManager
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.<init>(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:438)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerPluginManager.getReasonerPluginInstance(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerPluginManager.getReasonerPluginInstance(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.internalCreateReasoner(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.getProtegeReasoner(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.createProtegeReasoner(Unknown Source)
+	at explorasi.TransportationUtil.createPelletOWLAPIReasoner(TransportationUtil.java:129)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:73)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+Caused by: java.lang.ClassNotFoundException: org.semanticweb.owl.apibinding.OWLManager
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 15 more
+
+2015.11.28 14:50:03.322 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:50:04.327 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:50:04.361 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:50:05.128 ICT INFO:     Completed triple loading after 604 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:50:05.133 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:50:05.134 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:50:05.134 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:50:05.135 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:50:05.135 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:50:05.135 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:50:05.135 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:50:05.141 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:50:05.163 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:50:05.175 ICT INFO: 12 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:50:05.178 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:50:05.181 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:50:05.181 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:50:05.186 ICT INFO: 4 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:50:05.187 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:50:05.187 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:50:05.188 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:50:05.190 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:50:05.192 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:50:05.192 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:50:05.194 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:50:05.834 ICT WARNING: Exception caught by default exception handler -- java.lang.NoClassDefFoundError: org/semanticweb/owl/apibinding/OWLManager
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.<init>(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:438)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerPluginManager.getReasonerPluginInstance(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerPluginManager.getReasonerPluginInstance(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.internalCreateReasoner(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.getProtegeReasoner(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.protegeowl.ReasonerManager.createProtegeReasoner(Unknown Source)
+	at explorasi.TransportationUtil.createPelletOWLAPIReasoner(TransportationUtil.java:129)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:73)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+Caused by: java.lang.ClassNotFoundException: org.semanticweb.owl.apibinding.OWLManager
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 15 more
+
+2015.11.28 14:52:44.032 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:52:45.103 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:52:45.154 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:52:45.901 ICT INFO:     Completed triple loading after 599 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:52:45.904 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:52:45.905 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:52:45.906 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:52:45.907 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:52:45.908 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:52:45.909 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:52:45.909 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:52:45.916 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:52:45.926 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:52:45.933 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:52:45.937 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:52:45.939 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:52:45.939 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:52:45.943 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:52:45.943 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:52:45.943 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:52:45.943 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:52:45.945 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:52:45.946 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:52:45.946 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:52:45.947 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:53:43.320 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:53:44.486 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:53:44.524 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:53:45.369 ICT INFO:     Completed triple loading after 678 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:53:45.374 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:53:45.374 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:53:45.375 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:53:45.375 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:53:45.375 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:53:45.376 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:53:45.376 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:53:45.382 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:53:45.399 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:53:45.408 ICT INFO: 9 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:53:45.412 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:53:45.415 ICT INFO: 3 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:53:45.415 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:53:45.419 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:53:45.420 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:53:45.420 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:53:45.421 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:53:45.422 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:53:45.424 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:53:45.425 ICT INFO: 1 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:53:45.426 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:54:35.391 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:54:36.373 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:54:36.410 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:54:37.119 ICT INFO:     Completed triple loading after 559 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:54:37.122 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:54:37.122 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:54:37.122 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:54:37.123 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:54:37.123 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:54:37.123 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:54:37.124 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:54:37.130 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:54:37.138 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:54:37.145 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:54:37.149 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:54:37.157 ICT INFO: 8 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:54:37.158 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:54:37.161 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:54:37.163 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:54:37.164 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:54:37.165 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:54:37.167 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:54:37.169 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:54:37.170 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:54:37.172 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:55:53.380 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:55:54.632 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:55:54.713 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:55:55.711 ICT INFO:     Completed triple loading after 841 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:55:55.715 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:55:55.715 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:55:55.715 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:55:55.716 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:55:55.716 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:55:55.716 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:55:55.717 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:55:55.731 ICT INFO: 13 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:55:55.749 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:55:55.762 ICT INFO: 12 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:55:55.766 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:55:55.769 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:55:55.769 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:55:55.772 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:55:55.773 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:55:55.773 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:55:55.774 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:55:55.776 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:55:55.777 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:55:55.778 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:55:55.780 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:55:56.506 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 14:55:56.721 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 14:58:05.652 ICT INFO: *** SYSTEM START ***
+2015.11.28 14:58:07.008 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 14:58:07.041 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:58:07.850 ICT INFO:     Completed triple loading after 665 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 14:58:07.853 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:58:07.853 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 14:58:07.854 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:58:07.854 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 14:58:07.855 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:58:07.855 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 14:58:07.855 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:58:07.860 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 14:58:07.871 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:58:07.880 ICT INFO: 8 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 14:58:07.884 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:58:07.887 ICT INFO: 3 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 14:58:07.888 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:58:07.891 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 14:58:07.893 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:58:07.893 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 14:58:07.895 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:58:07.898 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 14:58:07.899 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:58:07.900 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 14:58:07.902 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 14:58:08.453 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 14:58:08.458 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:01:45.726 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:01:46.744 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:01:46.777 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:01:47.581 ICT INFO:     Completed triple loading after 626 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:01:47.585 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:01:47.585 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:01:47.586 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:01:47.586 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:01:47.587 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:01:47.587 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:01:47.587 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:01:47.599 ICT INFO: 11 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:01:47.617 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:01:47.631 ICT INFO: 14 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:01:47.635 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:01:47.639 ICT INFO: 4 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:01:47.639 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:01:47.643 ICT INFO: 4 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:01:47.644 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:01:47.644 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:01:47.645 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:01:47.647 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:01:47.649 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:01:47.650 ICT INFO: 1 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:01:47.651 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:01:48.372 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:01:48.433 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:02:31.897 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:02:32.957 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:02:32.989 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:02:33.703 ICT INFO:     Completed triple loading after 571 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:02:33.740 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:02:33.741 ICT INFO: 1 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:02:33.741 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:02:33.742 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:02:33.742 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:02:33.742 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:02:33.743 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:02:33.749 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:02:33.766 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:02:33.775 ICT INFO: 7 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:02:33.778 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:02:33.813 ICT INFO: 35 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:02:33.814 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:02:33.817 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:02:33.818 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:02:33.819 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:02:33.819 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:02:33.821 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:02:33.822 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:02:33.822 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:02:33.824 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:02:34.643 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:02:34.664 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:27:40.401 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:27:41.431 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:27:41.468 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:27:42.228 ICT INFO:     Completed triple loading after 620 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:27:42.231 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:27:42.232 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:27:42.232 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:27:42.236 ICT INFO: 4 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:27:42.236 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:27:42.237 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:27:42.237 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:27:42.247 ICT INFO: 10 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:27:42.267 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:27:42.280 ICT INFO: 13 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:27:42.283 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:27:42.287 ICT INFO: 3 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:27:42.288 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:27:42.291 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:27:42.292 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:27:42.293 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:27:42.294 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:27:42.297 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:27:42.299 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:27:42.299 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:27:42.302 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:27:42.843 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:27:42.864 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:31:27.325 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:31:28.579 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:31:28.609 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:31:29.311 ICT INFO:     Completed triple loading after 560 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:31:29.314 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:31:29.316 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:31:29.316 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:31:29.317 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:31:29.317 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:31:29.317 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:31:29.317 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:31:29.324 ICT INFO: 6 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:31:29.332 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:31:29.341 ICT INFO: 8 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:31:29.344 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:31:29.347 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:31:29.347 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:31:29.351 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:31:29.352 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:31:29.352 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:31:29.352 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:31:29.355 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:31:29.355 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:31:29.355 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:31:29.356 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:31:29.835 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:85)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:122)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:31:29.869 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:85)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:122)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:33:27.006 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:33:28.125 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:33:28.153 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:33:28.923 ICT INFO:     Completed triple loading after 626 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:33:28.927 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:33:28.928 ICT INFO: 1 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:33:28.928 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:33:28.929 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:33:28.929 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:33:28.929 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:33:28.929 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:33:28.941 ICT INFO: 11 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:33:28.957 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:33:28.970 ICT INFO: 13 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:33:28.973 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:33:28.975 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:33:28.976 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:33:28.979 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:33:28.980 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:33:28.980 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:33:28.981 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:33:28.984 ICT INFO: 3 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:33:28.985 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:33:28.986 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:33:28.988 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:34:58.214 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:34:59.403 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:34:59.439 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:35:00.074 ICT INFO:     Completed triple loading after 491 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:35:00.077 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:35:00.078 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:35:00.079 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:35:00.080 ICT INFO: 1 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:35:00.081 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:35:00.081 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:35:00.082 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:35:00.102 ICT INFO: 20 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:35:00.111 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:35:00.118 ICT INFO: 7 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:35:00.122 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:35:00.124 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:35:00.125 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:35:00.129 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:35:00.130 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:35:00.130 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:35:00.130 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:35:00.133 ICT INFO: 1 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:35:00.133 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:35:00.133 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:35:00.134 ICT INFO: Updating underlying frames model in 0 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:36:25.148 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:36:26.309 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:36:26.343 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:36:27.006 ICT INFO:     Completed triple loading after 504 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:36:27.009 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:36:27.010 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:36:27.011 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:36:27.011 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:36:27.012 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:36:27.012 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:36:27.012 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:36:27.021 ICT INFO: 8 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:36:27.029 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:36:27.037 ICT INFO: 8 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:36:27.041 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:36:27.044 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:36:27.044 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:36:27.047 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:36:27.048 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:36:27.048 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:36:27.049 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:36:27.051 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:36:27.051 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:36:27.052 ICT INFO: 1 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:36:27.053 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:36:27.561 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSuperclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:36:27.584 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSuperclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:37:25.788 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:37:27.253 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:37:27.288 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:37:28.012 ICT INFO:     Completed triple loading after 584 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:37:28.015 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:37:28.015 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:37:28.016 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:37:28.016 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:37:28.017 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:37:28.017 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:37:28.018 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:37:28.023 ICT INFO: 5 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:37:28.038 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:37:28.050 ICT INFO: 12 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:37:28.054 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:37:28.056 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:37:28.057 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:37:28.060 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:37:28.061 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:37:28.062 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:37:28.062 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:37:28.064 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:37:28.066 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:37:28.066 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:37:28.068 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:37:28.582 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSuperclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:37:28.590 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSuperclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:84)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:121)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:42:48.079 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:42:49.098 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:42:49.126 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:42:49.762 ICT INFO:     Completed triple loading after 485 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:42:49.765 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:42:49.766 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:42:49.766 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:42:49.767 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:42:49.768 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:42:49.768 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:42:49.769 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:42:49.801 ICT INFO: 32 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:42:49.821 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:42:49.834 ICT INFO: 12 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:42:49.837 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:42:49.840 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:42:49.841 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:42:49.844 ICT INFO: 3 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:42:49.845 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:42:49.845 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:42:49.846 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:42:49.848 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:42:49.850 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:42:49.851 ICT INFO: 1 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:42:49.853 ICT INFO: Updating underlying frames model in 2 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:42:50.564 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:85)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:122)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:42:50.585 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:85)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:122)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:57:29.398 ICT INFO: *** SYSTEM START ***
+2015.11.28 15:57:30.623 ICT WARNING: [Local Folder Repository] The specified file must be a directory. (D:\Semester 7\RPP\TransportationProtege\plugins\edu.stanford.smi.protegex.owl) -- LocalFolderRepository.update()
+2015.11.28 15:57:30.655 ICT INFO: Loading triples for: null -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:57:31.429 ICT INFO:     Completed triple loading after 615 ms -- ProtegeOWLParser.loadTriples()
+2015.11.28 15:57:31.433 ICT INFO: Postprocess: Process entities with incorrect Java type (0 entities) ...  -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:57:31.433 ICT INFO: 0 ms
+ -- TriplePostProcessor.processFramesWithWrongJavaType()
+2015.11.28 15:57:31.434 ICT INFO: Postprocess: Process metaclasses (3 metaclasses) ...  -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:57:31.434 ICT INFO: 0 ms
+ -- TriplePostProcessor.processMetaclasses()
+2015.11.28 15:57:31.435 ICT INFO: Postprocess: Process subclasses of rdf:List (1 classes) ...  -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:57:31.435 ICT INFO: 0 ms
+ -- TriplePostProcessor.processSubclassesOfRdfList()
+2015.11.28 15:57:31.436 ICT INFO: Postprocess: Instances with multiple types (24 instances) ...  -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:57:31.449 ICT INFO: 13 ms
+ -- TriplePostProcessor.processInstancesWithMultipleTypes()
+2015.11.28 15:57:31.467 ICT INFO: Postprocess: Add inferred superclasses ...  -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:57:31.482 ICT INFO: 14 ms
+ -- TriplePostProcessor.processInferredSuperclasses()
+2015.11.28 15:57:31.486 ICT INFO: Postprocess: Process orphan classes (26 classes) ...  -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:57:31.488 ICT INFO: 2 ms
+ -- TriplePostProcessor.processOrphanClses()
+2015.11.28 15:57:31.488 ICT INFO: Postprocess: Generalized Concept Inclusion (0 axioms) ...  -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:57:31.493 ICT INFO: 2 ms
+ -- TriplePostProcessor.processGeneralizedConceptInclusions()
+2015.11.28 15:57:31.494 ICT INFO: Postprocess: Abstract classes...  -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:57:31.494 ICT INFO: 0 ms
+ -- TriplePostProcessor.processAbstractClasses()
+2015.11.28 15:57:31.496 ICT INFO: Postprocess: Domain and range of properties...  -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:57:31.499 ICT INFO: 2 ms
+ -- TriplePostProcessor.processDomainAndRange()
+2015.11.28 15:57:31.500 ICT INFO: Postprocess: Possibly typed entities (1 resources) ...  -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:57:31.500 ICT INFO: 0 ms
+ -- TriplePostProcessor.processPossiblyTypedResources()
+2015.11.28 15:57:31.501 ICT INFO: Updating underlying frames model in 1 ms -- ProtegeOWLParser.doFinalPostProcessing()
+2015.11.28 15:57:31.963 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:85)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:122)
+	at explorasi.MainExample.main(MainExample.java:21)
+
+2015.11.28 15:57:31.971 ICT SEVERE: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi) -- edu.stanford.smi.protegex.owl.owlapi.converter.exception.ConversionException: Cannot convert subproperty axiom DefaultRDFProperty(http://www.w3.org/2002/07/owl#topObjectProperty), DefaultOWLObjectProperty(http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertSubProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertObjectProperty(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convertProperties(Unknown Source)
+	at edu.stanford.smi.protegex.owl.owlapi.converter.OWLAPIConverter.convert(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOwlApiOntology(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.rebind(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getOWLAPIConverter(Unknown Source)
+	at edu.stanford.smi.protegex.owl.inference.pellet.ProtegePelletOWLAPIReasoner.getSubclasses(Unknown Source)
+	at explorasi.TransportationUtil.<init>(TransportationUtil.java:85)
+	at explorasi.TransportationUtil.getInstance(TransportationUtil.java:122)
+	at explorasi.MainExample.main(MainExample.java:21)
+
