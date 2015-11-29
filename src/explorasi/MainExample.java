@@ -6,18 +6,28 @@
 package explorasi;
 
 import edu.stanford.smi.protegex.owl.inference.reasoner.exception.ProtegeReasonerException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 /**
  *
  * @author M. Reza Irvanda
  */
 public class MainExample {
-    public static final String NAMESPACE = "http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#";
+    
     public static void main(String[] args) throws ProtegeReasonerException{
-//        if(args.length < 1){
-//            System.out.println("Arguments needed : <owl_location>");
-//            return;
-//        }
         TransportationUtil tUtil = TransportationUtil.getInstance();
+        Scanner scan = new Scanner(System.in);
+        String nama_kendaraan;
+        Map<String,String> aturan = new HashMap<>();
+        cmdInterface(nama_kendaran,aturan);
+        conclude(nama_kendaraan,aturan);
     }
+
+    private static void cmdInterface(Map<String, String> aturan) {
+        
+    }
+    
+    
 }
