@@ -75,7 +75,7 @@ public class TransportationUtil {
             loadClasses();
             loadProperties();
             loadIndividuals();
-            
+
         } catch (FileNotFoundException | OntologyLoadException e) {
             System.out.println(e);
         }
@@ -116,7 +116,6 @@ public class TransportationUtil {
 
         return reasoner;
     }
-    
 
     public List<String> conclude(String nama_kendaraan, Map<String, String> aturan) {
         // str_kendaraan adalah nama kendaraan yang didefinisikan
@@ -128,30 +127,70 @@ public class TransportationUtil {
         System.out.println("Melakukan inferensi dari ciri-ciri " + nama_kendaraan);
 
         for (Map.Entry<String, String> entry : aturan.entrySet()) {
-            String key,value;
+            String key, value;
             key = entry.getKey();
             value = entry.getValue();
-            kendaraan.addPropertyValue(properties.get(key), individuals.get(value));
+            //System.out.println(key + " : " + value);
+            if (!value.equals("NULL")) {
+                kendaraan.addPropertyValue(properties.get(key), individuals.get(value));
+            }
         }
 
         //Mendapatkan Tipe Kendaraan yang Dimaksud berdasarkan ciri-ciri yang didefinsikan pada aturan
-        
         Collection inferredSuperclasses;
         List<String> tipes = new ArrayList<>();
         try {
             inferredSuperclasses = reasoner.getIndividualTypes(kendaraan);
-            System.out.println(nama_kendaraan + " adalah:");
+            //System.out.println(nama_kendaraan + " adalah:");
             for (Iterator it = inferredSuperclasses.iterator(); it.hasNext();) {
                 OWLNamedClass curClass = (OWLNamedClass) it.next();
-                System.out.println("\t" + curClass.getName().replaceAll(NAMESPACE, "- "));
-                tipes.add(curClass.getName().replaceAll(NAMESPACE, "- "));
+                String class_name = curClass.getName().contains("Thing") ? "- Thing" : curClass.getName().replaceAll(NAMESPACE, "- ");
+                //System.out.println("\t" + curClass.getName().replaceAll(NAMESPACE, "- "));
+                tipes.add(class_name);
             }
 
         } catch (ProtegeReasonerException ex) {
-            Logger.getLogger(TransportationUtil.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.get//Logger(TransportationUtil.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
         return tipes;
 
     }
+    
+    public List<String> tesConclude() {
+        // str_kendaraan adalah nama kendaraan yang didefinisikan
+        // aturan adalah pasangan antara property dengan nilainya, misalkan <"hasAkses", "Publik">
+        String nama_kendaraan = "Sepeda_Wim_Cycle";
+        ProtegeReasoner reasoner = createPelletOWLAPIReasoner();
+        //OWLNamedClass kendaraan = owlModel.createOWLNamedClass(str_kendaraan);
+        OWLNamedClass kendaraans = clss.get(("Kendaraan"));
+        OWLIndividual kendaraan = kendaraans.createOWLIndividual(nama_kendaraan);
+        System.out.println("Melakukan inferensi dari ciri-ciri " + nama_kendaraan);
+        kendaraan.addPropertyValue(properties.get("hasSumberTenaga"), individuals.get("Manusia"));
+        kendaraan.addPropertyValue(properties.get("hasAkses"), individuals.get("Pribadi"));
+        kendaraan.addPropertyValue(properties.get("hasKeperluan"), individuals.get("Transportasi"));
+        kendaraan.addPropertyValue(properties.get("hasJumlahRoda"), individuals.get("Dua"));
+        kendaraan.addPropertyValue(properties.get("hasModa"), individuals.get("Darat"));
+        kendaraan.addPropertyValue(properties.get("hasLoad"), individuals.get("Penumpang"));
+        //Mendapatkan Tipe Kendaraan yang Dimaksud berdasarkan ciri-ciri yang didefinsikan pada aturan
+        Collection inferredSuperclasses;
+        List<String> tipes = new ArrayList<>();
+        try {
+            inferredSuperclasses = reasoner.getIndividualTypes(kendaraan);
+            //System.out.println(nama_kendaraan + " adalah:");
+            for (Iterator it = inferredSuperclasses.iterator(); it.hasNext();) {
+                OWLNamedClass curClass = (OWLNamedClass) it.next();
+                String class_name = curClass.getName().contains("Thing") ? "- Thing" : curClass.getName().replaceAll(NAMESPACE, "- ");
+                //System.out.println("\t" + curClass.getName().replaceAll(NAMESPACE, "- "));
+                tipes.add(class_name);
+            }
+
+        } catch (ProtegeReasonerException ex) {
+            ////Logger.get//Logger(TransportationUtil.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return tipes;
+
+    }
+    
 }

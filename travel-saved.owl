@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:untitled-ontology-9="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#KapalBarang">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kapal"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Barang">
+                <rdf:type>
+                  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Load"/>
+                </rdf:type>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Angkot">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Publik">
+                <rdf:type>
+                  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Akses"/>
+                </rdf:type>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasAkses"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Empat">
+                <rdf:type>
+                  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Jumlah_roda"/>
+                </rdf:type>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi">
+                <rdf:type>
+                  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Keperluan"/>
+                </rdf:type>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Load"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat">
+                <rdf:type>
+                  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Moda"/>
+                </rdf:type>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Bensin">
+                <rdf:type>
+                  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+                </rdf:type>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#ModeTransmisi"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Bus">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasAkses"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Publik"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#LebihDariEmpat">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Jumlah_roda"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Bensin"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#MotorMatic">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Motor"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Automatic">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#ModeTransmisi"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Motor">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasAkses"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pribadi">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Akses"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Dua">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Jumlah_roda"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Bensin"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#PesawatKomersil">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pesawat"/>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#MotorBebek">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Motor"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Semi-Automatic">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#ModeTransmisi"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#PesawatTempur">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pesawat"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Perang">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Keperluan"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Truk">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+            </owl:onProperty>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#LebihDariEmpat"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Barang"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Solar">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Mobil">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasAkses"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pribadi"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+            </owl:onProperty>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Empat"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Bensin"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pesawat">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Udara">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Moda"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Avtur">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#KapalLayar">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kapal"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Angin">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sepeda">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty>
+                  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+                </owl:onProperty>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Dua"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty>
+                  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+                </owl:onProperty>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Empat"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:hasValue>
+                  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Tiga">
+                    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Jumlah_roda"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                  </owl:NamedIndividual>
+                </owl:hasValue>
+                <owl:onProperty>
+                  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+                </owl:onProperty>
+              </owl:Restriction>
+            </owl:unionOf>
+          </owl:Class>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasSumberTenaga"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Manusia">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kapal">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Laut">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Moda"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#KapalPenumpang">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kapal"/>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Tank">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Kendaraan"/>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#LebihDariEmpat"/>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasKeperluan"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Perang"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasLoad"/>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModa"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#MotorManual">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Motor"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Manual">
+                <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#ModeTransmisi"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+              </owl:NamedIndividual>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasModeTransmisi">
+    <rdfs:subPropertyOf>
+      <rdf:Property rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#hasJumlahRoda">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Listrik">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#BatuBara">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Sumber_tenaga"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:NamedIndividual>
+  <untitled-ontology-9:Kendaraan rdf:about="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Mio">
+    <untitled-ontology-9:hasModeTransmisi rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Automatic"/>
+    <untitled-ontology-9:hasModa rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Darat"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <untitled-ontology-9:hasJumlahRoda rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Dua"/>
+    <untitled-ontology-9:hasLoad rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Penumpang"/>
+    <untitled-ontology-9:hasSumberTenaga rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Bensin"/>
+    <untitled-ontology-9:hasAkses rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Pribadi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <untitled-ontology-9:hasKeperluan rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#Transportasi"/>
+  </untitled-ontology-9:Kendaraan>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.8, Build 629)  http://protege.stanford.edu -->
