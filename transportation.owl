@@ -1329,6 +1329,21 @@
         <rdf:type rdf:resource="&untitled-ontology-9;Moda"/>
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2015/10/untitled-ontology-9#XYZ -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-9;XYZ">
+        <rdf:type rdf:resource="&untitled-ontology-9;Kendaraan"/>
+        <hasSumberTenaga rdf:resource="&untitled-ontology-9;Bensin"/>
+        <hasModa rdf:resource="&untitled-ontology-9;Darat"/>
+        <hasJumlahRoda rdf:resource="&untitled-ontology-9;Empat"/>
+        <hasModeTransmisi rdf:resource="&untitled-ontology-9;Manual"/>
+        <hasLoad rdf:resource="&untitled-ontology-9;Penumpang"/>
+        <hasAkses rdf:resource="&untitled-ontology-9;Pribadi"/>
+        <hasKeperluan rdf:resource="&untitled-ontology-9;Transportasi"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

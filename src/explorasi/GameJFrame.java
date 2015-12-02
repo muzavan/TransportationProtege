@@ -141,9 +141,12 @@ public class GameJFrame extends javax.swing.JFrame {
                 switch(currentStep){
                     case 1:
                         aturan.put("hasModa", tmp == 3 ? "Udara" : tmp == 2 ? "Laut" : "Darat");
+                        if(tmp != 1){
+                            currentStep++;
+                        }
                         break;
                     case 2:
-                        aturan.put("hasKeperluan", tmp == 1 ? "Perang" : "Transportasi");
+                        aturan.put("hasJumlahRoda", tmp == 1 ? "NULL" : tmp == 2 ? "Dua" : tmp == 3 ? "Tiga" : tmp == 4 ? "Empat" : "LebihDariEmpat");
                         break;
                     case 3:
                         aturan.put("hasAkses", tmp == 1 ? "Publik" : "Pribadi");
@@ -152,7 +155,7 @@ public class GameJFrame extends javax.swing.JFrame {
                         aturan.put("hasLoad", tmp == 1 ? "Penumpang" : "Barang");
                         break;
                     case 5:
-                        aturan.put("hasJumlahRoda", tmp == 1 ? "NULL" : tmp == 2 ? "Dua" : tmp == 3 ? "Tiga" : tmp == 4 ? "Empat" : "LebihDariEmpat");
+                        aturan.put("hasKeperluan", tmp == 1 ? "Perang" : "Transportasi");                        
                         break;
                     case 6:
                         aturan.put("hasSumberTenaga", tmp == 1 ? "Angin" : tmp == 2 ? "Solar" : tmp == 3 ? "Avtur" : tmp == 4 ? "Manusia" : tmp == 5 ? "BatuBara" : tmp == 6 ? "Listrik" : "Bensin");
@@ -196,10 +199,10 @@ public class GameJFrame extends javax.swing.JFrame {
     String[] questions = {
         "Apa nama kendaraan anda?",
         "Dimana kendaraan berjalan?\n1. Darat\n2. Laut\n3. Udara\n\n(pilih satu)",
-        "Digunakan untuk apakah kendaran tersebut?\n1. Perang\n2. Transportasi\n\n(Pilih satu)",
-        "Apakah kendaraan ini bersifat Publik atau Pribadi?\n1. Publik\n2. Pribadi\n\n(Pilih satu)",
-        "Secara umum, apa yang diangkut kendaraan ini?\n1. Penumpang\n2. Barang\n\n(Pilih satu)",
         "Secara umum, Berapa jumlah roda pada kendaraan ini?\n1. Tidak memiliki roda\n2. Dua\n3. Tiga\n4. Empat\n5. Lebih dari Empat\n\n(Pilih satu)",
+        "Apakah kendaraan ini bersifat Publik atau Pribadi?\n1. Publik\n2. Pribadi\n\n(Pilih satu)",
+        "Apa yang diangkut oleh kendaraan anda?\n1. Penumpang\n2. Barang\n\n(Pilih satu)",
+        "Digunakan untuk apakah kendaran tersebut?\n1. Perang\n2. Transportasi\n\n(Pilih satu)",
         "Bahan bakar apakah yang digunakan oleh kendaraan ini?\n1. Angin\n2. Solar\n3. Avtur\n4. Manusia\n5. Batubara\n6. Listrik\n7. Bensin\n\n(Pilih satu)",
         "Mode Transmisi seperti apa yang digunakan pada kendaran ini?\n1. Tidak diketahui\n2. Manual\n3. Semi-automatic\n4. Automatic\n\n(Pilih satu)"
     };
