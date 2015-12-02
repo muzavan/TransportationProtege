@@ -41,13 +41,14 @@ public class TransportationUtil {
     private static final String OWL = "transportation.owl";
     private static final String[] CLASSES
             = {
-                "Akses", "Angkot", "Bus",
-                "Jumlah_roda", "Kapal", "KapalBarang",
-                "KapalLayar", "KapalPenumpang", "Kendaraan",
-                "Keperluan", "Load", "Mobil",
-                "Moda", "ModeTransmisi", "Motor",
-                "MotorBebek", "MotorManual", "MotorMatic",
-                "Pesawat", "PesawatKomersil", "PesawatTempur",
+                "Akses", "Angkot", "Becak", "Bemo", "Bus", "BusKotaMini",
+                "Jumlah_roda", "Kapal", "KapalBarang", "KapalDayung",
+                "KapalLayar", "KapalPenumpang", "KapalFeri", "Yacht","KapalPerang","Kendaraan",
+                "Karavan","KendaraanPerangDarat","Humvee","Tronton","Keperluan", "Load", "Mobil",
+                "Moda", "ModeTransmisi", "Motor", "MobilListrik", "MobilManual","MobilMatic",
+                "MotorBebek", "MotorManual", "MotorMatic","MotorViar",
+                "Ojek",
+                "Pesawat", "HumanPoweredAircraft","LippischP.13a","PesawatKomersil", "PesawatTempur",
                 "Sepeda", "Sumber_tenaga", "Tank", "Truk"
             };
 
